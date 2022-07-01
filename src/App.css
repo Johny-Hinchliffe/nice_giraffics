@@ -69,6 +69,25 @@ h3 {
 	background-color: rgba(255, 111, 111, 0.521);
 }
 
+@media (max-width: 4000px) {
+	#hero {
+		width: 40vw;
+		margin-top: 5%;
+	}
+	#hero2 {
+		width: 30vw;
+		
+	}
+	#text {
+		font-size: 1.6rem;
+	}
+	#logo {
+		height: 60px;
+		
+	}
+	
+}
+
 
 @media (max-width: 1600px) {
 	#hero {
@@ -81,6 +100,10 @@ h3 {
 	#text {
 		font-size: 1.6rem;
 	}
+	#logo {
+		height: 60px;
+		
+	}
 	
 }
 
@@ -91,6 +114,10 @@ h3 {
 	}
 	#hero2 {
 		width: 45vw;
+		
+	}
+	#logo {
+		height: 60px;
 		
 	}
 }
@@ -106,10 +133,15 @@ h3 {
 	#input {
 		margin-top: 0px;
 	}
+	#logo {
+		height: 50px;
+		
+	}
 }
 
 @media (max-width: 400px) {
 	#hero {
+		margin-top: 15%;
 		width: 90vw;
 	}
 	#text {
@@ -121,5 +153,9 @@ h3 {
 	#button {
 		margin-left: 0.4rem;
 		margin-right: 0.4rem;
+	}
+	#logo {
+		height: 40px;
+		
 	}
 }
