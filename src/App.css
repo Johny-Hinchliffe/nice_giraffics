@@ -1,0 +1,130 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap') */
+
+/* Document level adjustments */
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background-color: #abc9a8;
+	height: 100%;
+}
+
+html {
+	font-size: 17px;
+}
+
+/* Type will scale with modules */
+h1 {
+	font-size: 3rem;
+}
+h2 {
+	font-size: 2.5rem;
+}
+h3 {
+	font-size: 2rem;
+}
+
+.prime {
+	background-color: #c8edc2;
+}
+
+#secondary {
+	background-color: #789d72;
+}
+
+#white {
+	color: #fdfeff;
+}
+
+#third {
+	color: #8b865d;
+}
+
+#hero {
+	padding-top: 2rem;
+	width: 50vw;
+	height: auto;
+}
+
+#hero2 {
+	padding-top: 2rem;
+	width: 40vw;
+	height: auto;
+}
+
+
+
+#text {
+	font-size: 1.6rem;
+	font-weight: 500;
+	color: #8b865d;
+}
+
+#text2 {
+	font-size: 1.4rem;
+	font-weight: 500;
+	color: rgb(90, 69, 69);
+}
+
+#error {
+	border-color: rgba(255, 111, 111, 0.521);
+	background-color: rgba(255, 111, 111, 0.521);
+}
+
+
+@media (max-width: 1600px) {
+	#hero {
+		width: 40vw;
+	}
+	#hero2 {
+		width: 30vw;
+		
+	}
+	#text {
+		font-size: 1.6rem;
+	}
+	
+}
+
+@media (max-width: 1500px) {
+	#hero {
+		
+		width: 55vw;
+	}
+	#hero2 {
+		width: 45vw;
+		
+	}
+}
+
+@media (max-width: 850px) {
+	#hero {
+		width: 90vw;
+	}
+	#hero2 {
+		width: 75vw;
+		
+	}
+	#input {
+		margin-top: 0px;
+	}
+}
+
+@media (max-width: 400px) {
+	#hero {
+		margin-top: 40%;
+		width: 90vw;
+	}
+	#text {
+		font-size: 1rem;
+	}
+	#text2 {
+		font-size: 1rem;
+	}
+	#button {
+		margin-left: 0.4rem;
+		margin-right: 0.4rem;
+	}
+}
