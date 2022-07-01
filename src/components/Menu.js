@@ -6,7 +6,7 @@ import '../App.css'
 const Menu = () => {
 	return (
 		<div id="secondary" className="ui segment" style={{ borderRadius: '0px' }}>
-			<img src={logo} style={{height: '60px'}}/>
+			<img alt='Nice Giraffics' src={logo} style={{height: '60px'}}/>
 		</div>
 	)
 }
