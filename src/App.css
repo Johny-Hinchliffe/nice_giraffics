@@ -110,7 +110,6 @@ h3 {
 
 @media (max-width: 400px) {
 	#hero {
-		margin-top: 20%;
 		width: 90vw;
 	}
 	#text {
