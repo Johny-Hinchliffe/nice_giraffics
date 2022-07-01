@@ -16,7 +16,7 @@ const LandingPage = () => {
 				</div>
 				<div className="sixteen wide column center aligned">
 					<p id="text" className="ui center aligned huge text">
-						Our website isn't quite ready, but you can bet giraffe we're working on it!
+						Our website isn't quite ready, but you can bet your giraffe we're working on it!
 					</p>
 				</div>
 			</div>
